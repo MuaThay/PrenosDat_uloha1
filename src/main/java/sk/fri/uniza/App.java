@@ -120,6 +120,6 @@ public class App {
         }
 
         double a = iotNode.getAverageTemperature("station_1", "20/04/2020 15:00", "12/05/2020 15:00");
-        System.out.println(a);
+        System.out.println("Priemerná teplota je: " + a);
     }
 }
